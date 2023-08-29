@@ -9,11 +9,19 @@
 </head>
 <body>
   <div class="container">
-    <p>Todo List</p>
-    <input type="text" id="input" placeholder="Todo 입력 후 엔터">
-    <ul>
-      <li>출석하기</li>
-    </ul>
+  <div class="header">
+    <div class="left-section">
+      <span>Todos 앱</span>
+    </div>
+    <div class="right-section">
+      <span>새로운 TODO 추가하기</span>
+    </div>
+  </div>
+  <div class="list">
+    <input type="text" id="toDo" placeholder="Todo List를 입력하세요">
+    <button id="addButton">추가</button>
+    <div id="toDoList">
+    </div>
   </div>
 </body>
 </html>

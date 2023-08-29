@@ -1,24 +1,40 @@
-body {
-  padding: 16px 32px;
-  font-size: 1.24em;
+.header {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  color: whitesmoke;
 }
 
-#input {
-  width: 600px;
-  padding: 4px 12px;
-  font-size: 1.24em;
-  cursor: pointer;
-  margin-left: 20px;
+.left-section {
+  margin-left: 10px;
+  
+}
+
+.right-section {
+  margin-right: 10px;
+  text-decoration: underline;
 }
 
 .container {
-  display: flex;
-  flex-direction: column;
-  background-color: aquamarine;
-  border-radius: 20px;
+  background-color: lightcoral;
+  border-radius: 5px;
 }
 
-.container p {
-  text-align: center;
-  font-size: 35px;
+#toDoList {
+  margin-left: 10px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+
+#toDo {
+  margin-left: 10px;
+}
+
+#toDoList div {
+  display: flex;
+  margin-bottom: 5px;
+}
+#toDoList button {
+  justify-self: flex-end;
+  right: 10px;
 }
